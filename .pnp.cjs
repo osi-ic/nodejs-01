@@ -12,14 +12,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "CRUD-jukuy",\
+        "name": "crud-jukuy",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["CRUD-jukuy", ["workspace:."]]\
+      ["crud-jukuy", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -28,17 +28,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["ejs", "npm:3.1.9"],\
-            ["express", "npm:4.18.2"]\
-          ],\
-          "linkType": "SOFT"\
-        }]\
-      ]],\
-      ["CRUD-jukuy", [\
-        ["workspace:.", {\
-          "packageLocation": "./",\
-          "packageDependencies": [\
-            ["CRUD-jukuy", "workspace:."],\
             ["ejs", "npm:3.1.9"],\
             ["express", "npm:4.18.2"]\
           ],\
@@ -227,6 +216,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cookie-signature", "npm:1.0.6"]\
           ],\
           "linkType": "HARD"\
+        }]\
+      ]],\
+      ["crud-jukuy", [\
+        ["workspace:.", {\
+          "packageLocation": "./",\
+          "packageDependencies": [\
+            ["crud-jukuy", "workspace:."],\
+            ["ejs", "npm:3.1.9"],\
+            ["express", "npm:4.18.2"]\
+          ],\
+          "linkType": "SOFT"\
         }]\
       ]],\
       ["debug", [\
