@@ -1,0 +1,42 @@
+[
+  {
+    "Judul": "Nitro Boost 1 Bulan Via Gift",
+    "Deskripsi": ":nboost:",
+    "Harga": 90000
+  },
+  {
+    "Judul": "Nitro Boost 1 Tahun Via Gift",
+    "Deskripsi": ":nboost:",
+    "Harga": 900000
+  },
+  {
+    "Judul": "Nitro Basic 1 Bulan Via Gift",
+    "Deskripsi": ":nclasic:",
+    "Harga": 70000
+  },
+  {
+    "Judul": "Nitro Basic 1 Tahun Via Gift",
+    "Deskripsi": ":nclasic:",
+    "Harga": 700000
+  },
+  {
+    "Judul": "Nitro Boost 1 Bulan Via Login",
+    "Deskripsi": ":nboost:",
+    "Harga": 40000
+  },
+  {
+    "Judul": "Nitro Boost 1 Tahun Via Login",
+    "Deskripsi": ":nboost:",
+    "Harga": 350000
+  },
+  {
+    "Judul": "Nitro Basic 1 Bulan Via Login",
+    "Deskripsi": ":nclasic: ",
+    "Harga": 25000
+  },
+  {
+    "Judul": "Nitro Basic 1 Tahun Via Login",
+    "Deskripsi": ":nclasic:",
+    "Harga": 250000
+  }
+]
